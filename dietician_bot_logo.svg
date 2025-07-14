@@ -1,0 +1,72 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="95" fill="#f8fffe" stroke="#2d7d6e" stroke-width="3"/>
+  
+  <!-- Medical cross background -->
+  <circle cx="100" cy="100" r="80" fill="#e8f5f3"/>
+  
+  <!-- Stylized stethoscope heart shape -->
+  <path d="M100 55 C85 40, 55 40, 55 70 C55 90, 100 120, 100 120 C100 120, 145 90, 145 70 C145 40, 115 40, 100 55 Z" fill="#2d7d6e" opacity="0.1"/>
+  
+  <!-- Central medical cross -->
+  <rect x="92" y="70" width="16" height="60" rx="2" fill="#2d7d6e"/>
+  <rect x="70" y="92" width="60" height="16" rx="2" fill="#2d7d6e"/>
+  
+  <!-- Nutrition symbols around the cross -->
+  <!-- Apple (top left) -->
+  <g transform="translate(70, 70)">
+    <ellipse cx="0" cy="3" rx="6" ry="9" fill="#c44536"/>
+    <path d="M-1 -5 Q0 -7, 2 -6" stroke="#4a7c59" stroke-width="1.5" fill="none"/>
+    <ellipse cx="1" cy="-4" rx="1.5" ry="2" fill="#4a7c59"/>
+  </g>
+  
+  <!-- Carrot (top right) -->
+  <g transform="translate(130, 70)">
+    <path d="M0 11 L-3 -3 L3 -3 Z" fill="#ff7b25"/>
+    <path d="M-2 -3 Q-1 -7, 0 -6 Q1 -7, 2 -3" stroke="#4a7c59" stroke-width="1" fill="none"/>
+  </g>
+  
+  <!-- Broccoli (bottom left) -->
+  <g transform="translate(70, 130)">
+    <circle cx="-2" cy="-2" r="3" fill="#4a7c59"/>
+    <circle cx="2" cy="-2" r="3" fill="#4a7c59"/>
+    <circle cx="0" cy="-6" r="3" fill="#4a7c59"/>
+    <rect x="-1" y="2" width="2" height="6" fill="#4a7c59"/>
+  </g>
+  
+  <!-- Fish (bottom right) -->
+  <g transform="translate(130, 130)">
+    <ellipse cx="0" cy="0" rx="8" ry="4" fill="#4a90a4"/>
+    <path d="M8 0 L12 -3 L12 3 Z" fill="#4a90a4"/>
+    <circle cx="-3" cy="-1" r="1" fill="white"/>
+    <path d="M-6 0 Q-5 -2, -3 0 Q-5 2, -6 0" stroke="#4a90a4" stroke-width="1" fill="none"/>
+  </g>
+  
+  <!-- DNA helix elements -->
+  <g transform="translate(150, 150)" opacity="0.3">
+    <path d="M-60 -40 Q-30 -60, 0 -40 Q30 -20, 60 -40" stroke="#2d7d6e" stroke-width="2" fill="none"/>
+    <path d="M-60 40 Q-30 20, 0 40 Q30 60, 60 40" stroke="#2d7d6e" stroke-width="2" fill="none"/>
+    <circle cx="-45" cy="-45" r="2" fill="#2d7d6e"/>
+    <circle cx="-15" cy="-35" r="2" fill="#2d7d6e"/>
+    <circle cx="15" cy="-45" r="2" fill="#2d7d6e"/>
+    <circle cx="45" cy="-35" r="2" fill="#2d7d6e"/>
+    <circle cx="-45" cy="35" r="2" fill="#2d7d6e"/>
+    <circle cx="-15" cy="45" r="2" fill="#2d7d6e"/>
+    <circle cx="15" cy="35" r="2" fill="#2d7d6e"/>
+    <circle cx="45" cy="45" r="2" fill="#2d7d6e"/>
+  </g>
+  
+  <!-- Text elements removed for clean icon -->
+  
+  <!-- Subtle circuit pattern for AI element -->
+  <g opacity="0.1">
+    <circle cx="60" cy="60" r="2" fill="#2d7d6e"/>
+    <circle cx="240" cy="60" r="2" fill="#2d7d6e"/>
+    <circle cx="60" cy="240" r="2" fill="#2d7d6e"/>
+    <circle cx="240" cy="240" r="2" fill="#2d7d6e"/>
+    <path d="M60 60 L80 60 L80 80" stroke="#2d7d6e" stroke-width="1" fill="none"/>
+    <path d="M240 60 L220 60 L220 80" stroke="#2d7d6e" stroke-width="1" fill="none"/>
+    <path d="M60 240 L80 240 L80 220" stroke="#2d7d6e" stroke-width="1" fill="none"/>
+    <path d="M240 240 L220 240 L220 220" stroke="#2d7d6e" stroke-width="1" fill="none"/>
+  </g>
+</svg>
